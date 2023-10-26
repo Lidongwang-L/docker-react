@@ -6,7 +6,7 @@ on:
       - "master"
 
 jobs:
-  publish-hello-docker-image:
+  publish-docker-example-image:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
@@ -21,6 +21,6 @@ jobs:
 
       - name: Build the example-docker-gitaction Docker image
         run: |
-          docker build . --tag ghcr.io/lidongwang/docker-react:latest
-          docker run ghcr.io/lidongwang/docker-react:latest
-          docker push ghcr.io/lidongwang/docker-react:latest
+          docker build . --tag ghcr.io/lidongw90/docker-react:latest
+          docker run ghcr.io/lidongw90/docker-react:latest
+          docker push ghcr.io/lidongw90/docker-react:latest
