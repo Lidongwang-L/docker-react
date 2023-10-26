@@ -21,6 +21,6 @@ jobs:
 
       - name: Build the example-docker-gitaction Docker image
         run: |
-          docker build . --tag ghcr.io/Lidongwang-L/example-docker-gitaction:latest
-          docker run ghcr.io/Lidongwang-L/example-docker-gitaction:latest
-          docker push ghcr.io/Lidongwang-L/example-docker-gitaction:latest
+          docker build . --tag ghcr.io/Lidongwang-L/docker-react:latest
+          docker run ghcr.io/Lidongwang-L/docker-react:latest
+          docker push ghcr.io/Lidongwang-L/docker-react:latest
