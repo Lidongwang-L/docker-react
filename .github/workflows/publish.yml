@@ -21,6 +21,6 @@ jobs:
 
       - name: Build the example-docker-gitaction Docker image
         run: |
-          docker build . --tag ghcr.io/lidongw90/docker-react:latest
-          docker run ghcr.io/lidongw90/docker-react:latest
-          docker push ghcr.io/lidongw90/docker-react:latest
+          docker build . --tag ghcr.io/lidongw90/docker-react/docker-gitaction-example:latest
+          docker run ghcr.io/lidongw90/docker-react/docker-gitaction-example:latest
+          docker push ghcr.io/lidongw90/docker-react/docker-gitaction-example:latest
